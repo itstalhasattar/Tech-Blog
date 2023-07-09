@@ -1,0 +1,47 @@
+
+
+.about-heading {
+    width: 100%;
+    background-color: #191D32;
+    padding: 2rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.about-me {
+    display: flex;
+    gap: 2rem;
+
+}
+
+#about-img {
+    border-radius: 3rem;
+}
+
+.about-right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-right-col p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Styles for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    .about-me {
+      flex-direction: column;
+    }
+  
+    #about-img {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 1rem;
+    }
+  }
+  
