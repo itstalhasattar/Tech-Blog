@@ -40,6 +40,10 @@ img {
   gap: 1rem;
   padding-left: 10%;
 }
+.social-links h4 {
+  margin-bottom: 0.3rem;
+}
+
 .right-col {
   padding-right: 10%;
 }
@@ -54,9 +58,9 @@ img {
   padding-top: 2%;
 }
 
-button {
+.btn-format {
   color: #fff;
-  background-color: #32373c;
+  background-color: #191D32;
   padding-inline: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -64,6 +68,7 @@ button {
   border-radius: 3.2rem;
   width: 10rem;
   margin-top: 0.5rem;
+  border: none;
 }
 
 #message {
@@ -72,7 +77,10 @@ button {
 ul li {
   list-style: none;
 }
-
+ul li a {
+  text-decoration: none;
+  color: black;
+}
 @media only screen and (max-width: 600px) {
   .main-section {
     flex-direction: column;

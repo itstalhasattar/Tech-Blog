@@ -4,17 +4,43 @@
     width: 100%;
     background-color: #191D32;
     padding: 2rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    
+
+}
+.welcome-qoute {
+    height: 10rem;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 3rem;
+}
+.about-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+.our-mission {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
 }
 
 .about-me {
     display: flex;
     gap: 2rem;
+    padding-inline: 7.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    background-color: #f0f0f0;
 
 }
 
@@ -25,12 +51,13 @@
 .about-right-col {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-top: 1rem;
 }
 .about-right-col p {
     margin-top: 1rem;
     font-size: 1.1rem;
 }
+
 
 /* Styles for screens smaller than 768px (typical mobile screens) */
 @media (max-width: 768px) {
@@ -45,3 +72,6 @@
     }
   }
   
+.contact-btn {
+    margin-top: 0.6rem;
+}

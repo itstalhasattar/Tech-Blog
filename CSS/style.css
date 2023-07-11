@@ -18,7 +18,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
 }
 
 nav {
@@ -56,4 +56,17 @@ nav a {
       font-size: 1.2em;
       text-align: center;
     }
+  }
+
+footer {
+
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #191D32;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.2rem;
   }
