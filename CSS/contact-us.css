@@ -61,6 +61,7 @@ img {
 .btn-format {
   color: #fff;
   background-color: #191D32;
+  
   padding-inline: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -69,6 +70,12 @@ img {
   width: 10rem;
   margin-top: 0.5rem;
   border: none;
+  cursor: pointer;
+}
+
+.btn-format:hover {
+  background-color:black;
+
 }
 
 #message {

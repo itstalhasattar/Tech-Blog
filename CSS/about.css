@@ -37,11 +37,15 @@
     display: flex;
     gap: 2rem;
     padding-inline: 7.5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
     background-color: #f0f0f0;
 
+}
+
+.about-me h2{
+    font-size:1.7rem;
 }
 
 #about-img {

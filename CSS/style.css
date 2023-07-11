@@ -69,4 +69,5 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 0.2rem;
+    padding-inline: 2rem;
   }
