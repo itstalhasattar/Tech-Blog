@@ -58,7 +58,7 @@ nav a {
   }
   .hero-post-main { 
     grid-area: 1 / 1 / 5 / 4; 
-    background-image: url(/img1.jpg);
+    background-image: url(/img/Posts-img/img1.jpg);
     border-radius: 0.7rem;
     font-size: 1.5rem;
     
@@ -83,12 +83,12 @@ nav a {
   .hero-post-2{ 
     grid-area: 1 / 4 / 3 / 6;
     
-    background-image: url(/img2.jpg);
+    background-image: url(/img/Posts-img/img2.jpg);
     border-radius: 0.7rem;
    }
   .hero-post-3 { 
     grid-area: 3 / 4 / 5 / 6; 
-    background-image: url(/img3.jpg);
+    background-image: url(/img/Posts-img/img3.jpg);
     border-radius: 0.7rem;
   }
 
