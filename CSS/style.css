@@ -9,7 +9,7 @@ body {
   background-color: #fafaff;
 }
 main {
-    width: 85%;
+    width: 87%;
     margin: 0 auto;
 }
 
@@ -19,6 +19,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-top: 1.5rem;
+    font-weight: 600;
 }
 
 nav {
@@ -41,6 +42,66 @@ nav a {
 }
   
 
+.hero-posts {
+  margin-top: 4rem;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 39rem;
+  
+  gap: 1rem;
+  }
+  .pt1 {
+    display: flex;
+    align-items: end; 
+    padding: 1rem;
+  }
+  .hero-post-main { 
+    grid-area: 1 / 1 / 5 / 4; 
+    background-image: url(/img1.jpg);
+    border-radius: 0.7rem;
+    font-size: 1.5rem;
+    
+  }
+
+.category-box{
+  background-color: red;
+  padding-inline-start: 0.5rem;
+  width: 5rem;
+  border-radius: 0.5rem;
+  font-size: 0.7rem;
+  padding-bottom: 0.2rem;
+}
+  
+.posts-pattern a{
+  color: white;
+  text-decoration: none;
+}
+.post-hover:hover {
+  cursor: pointer;
+}
+  .hero-post-2{ 
+    grid-area: 1 / 4 / 3 / 6;
+    
+    background-image: url(/img2.jpg);
+    border-radius: 0.7rem;
+   }
+  .hero-post-3 { 
+    grid-area: 3 / 4 / 5 / 6; 
+    background-image: url(/img3.jpg);
+    border-radius: 0.7rem;
+  }
+
+  .auth-date {
+    display: flex;
+    gap: 1rem;
+  }
+  .posts-pattern {
+    color: white;
+  }
+  .img-resize{
+    background-size: cover;
+  }
 @media only screen and (max-width: 600px) {
     header {
       flex-direction: column;
