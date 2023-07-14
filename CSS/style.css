@@ -100,7 +100,7 @@ nav a {
   }
   .img-resize{
     background-size: cover;
-    transition: transform 0.3s ease-in-out;
+    
   }
   .img-resize:hover{
     transform: scale(1.01); /* Add transform property to scale the image on hover */
