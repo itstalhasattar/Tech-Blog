@@ -47,7 +47,8 @@ nav a {
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  height: 39rem;
+  height: 38rem;
+  margin-bottom: 4rem;
   
   gap: 1rem;
   }
@@ -65,12 +66,7 @@ nav a {
   }
 
 .category-box{
-  background-color: red;
-  padding-inline-start: 0.5rem;
-  width: 5rem;
-  border-radius: 0.5rem;
-  font-size: 0.7rem;
-  padding-bottom: 0.2rem;
+  color: hsl(0,0%,50.2%);
 }
   
 .posts-pattern a{
@@ -95,14 +91,68 @@ nav a {
   .auth-date {
     display: flex;
     gap: 1rem;
+    justify-content: space-between;
+    padding-right: 10px;
+    margin-top: 0.5rem;
   }
   .posts-pattern {
     color: white;
   }
   .img-resize{
     background-size: cover;
+    transition: transform 0.3s ease-in-out;
   }
-@media only screen and (max-width: 600px) {
+  .img-resize:hover{
+    transform: scale(1.01); /* Add transform property to scale the image on hover */
+  }
+  .latest-posts {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+  }
+  .post-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 14px hsl(335deg 25% 15% / 10%);
+    padding: 1rem;
+    border-radius: 0.4rem;
+  }
+  .post-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.4rem;
+    transition: transform 0.3s ease-in-out;
+  }
+  .post-container:hover .post-image {
+    transform: scale(1.05); /* Add transform property to scale the image on hover */
+  }
+  .post-container a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .cateogry {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: orange;
+  }
+  .post-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+  .post-description {
+    font-size: 0.9rem;
+  }
+
+  @media only screen and (max-width: 600px) {
     header {
       flex-direction: column;
       align-items: flex-start;
@@ -117,7 +167,33 @@ nav a {
       font-size: 1.2em;
       text-align: center;
     }
+    .hero-posts {
+      grid-template-columns: 1fr;
+      height: auto;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+  
+    .hero-post-main,
+    .hero-post-2,
+    .hero-post-3 {
+      grid-area: auto;
+      width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+  
+    .latest-posts {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+  
+    .post-container {
+      width: 100%;
+    }
   }
+  
 
 footer {
 
